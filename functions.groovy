@@ -36,9 +36,9 @@ def notifySlack(text, channel, attachments) {
     // https://api.slack.com/apps/A08H48EP0EP/incoming-webhooks?success=1
     // Get your own slack webhook url and token
     // def slackURL = 'https://hooks.slack.com/services/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'
-    // def slackUrl = 'https://hooks.slack.com/services/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'
-    // def slackUrl = 'https://hooks.slack.com/services/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'
-    def slackUrl = 'https://hooks.slack.com/services/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'
+    // def slackURL = 'https://hooks.slack.com/services/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'
+    // def slackURL = 'https://hooks.slack.com/services/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'
+    def slackURL = 'https://hooks.slack.com/services/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'
     def jenkinsIcon = 'https://a.slack-edge.com/205a/img/services/jenkins-ci_72.png'
 
     def payload = JsonOutput.toJson([
